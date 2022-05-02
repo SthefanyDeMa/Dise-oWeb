@@ -1,94 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuesta Cinematográfica</title>
-    <link rel="icon" href="img/favicon.ico">
+    <link rel="icon" href="img/favicon1.ico">
+
+    <style>
+        body{
+            background-color: #922B21;
+        }
+
+        div {
+            background-color: white;
+            border: 1px solid black;
+            padding: 12px;
+            width: 80%;
+            margin: 0 auto;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        fieldset{
+            margin-bottom: 12px;
+        }
+
+        legend{
+            background-color: #DC7633;
+            padding: 5px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+
+    </style>
 </head>
-<body style="background-color:rgb(255, 255, 255);">
 
-    <font face="Comic Sans MS">
-        <div id="Contenedor">
-            <h2 style="text-align:center;">Encuesta de cine: Nominadas al Oscar 2022</h2>
+<body>
 
-            <form id="formulario1" name="formulario1" method="post" action="data.php">
+    <div id="Contenedor">
+        <h2 style ="color:#7B241C;border:3px solid #000000;text-align:center;">Encuesta de cine: Nominadas al Oscar 2022</h2>
 
-                <fieldset id="datos_personales" style="background-color:rgb(255, 200, 112);">
-                    <legend style="text-align:center;">Datos Personales</legend>
+        <form id="formulario1" name="formulario1" method="post" action="data.php">
 
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre"> <br>
-                    <br>
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" id="apellido"><br>
-                    <br>
-                    <label for="dni">DNI:</label>
-                    <input type="text"name="dni" id="dni" maxlength="9"><br>
-                    <br>
-                    <label for="edad">Edad:</label>
-                    <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
-                    <br>
-                    <label for="sexo">Sexo:</label>
-                    <select name="sexo" id="sexo">
-                        <option selected="selected">Femenino</option>
-                        <option>Masculino</option>
-                    </select> 
-                </fieldset>
-                <div style="float: left; width: 50%; text-align: justify;">
-                    <fieldset id="mejor película" style="background-color:rgb(200, 227, 197);">
-                        <legend style="text-align:center;">Mejor Película</legend>
-                        <input type="radio" name="pelicula" value="11"> Spider-Man: Sin camino a casa <br>
-                        <img src="img/peli1.jpg" alt="Spider-Man: Sin camino a casa" width="200" height="300"><br>
-                        <input type="radio" name="pelicula" value="22"> Halloween Kills: La noche aún no termina <br>
-                        <img src="img/peli2.jpg" alt="Halloween Kills"width="200" height="300"><br>
-                        <input type="radio" name="pelicula" value="33"> No respires 2 <br>
-                        <img src="img/peli3.jpg" alt="No respires 2"width="200" height="250"><br>
-                        <input type="radio" name="pelicula" value="44"> Rápidos y Furiosos 9<br>
-                        <img src="img/peli4.jpg" alt="Rápidos y Furiosos 9"width="200" height="250"><br>
-                        <input type="radio" name="pelicula" value="55"> Entre dos mundos<br>
-                        <img src="img/peli5.jpg" alt="Entre dos mundos"width="200" height="250"><br>
-                        <input type="radio" name="pelicula" value="66"> The Adam Project <br>
-                        <img src="img/peli6.jpg" alt="The Adam Project"width="200" height="250"><br>
-                        
-                        
-                    </fieldset>
-                </div>
- 
-                <div style="float: right; width: 50%; text-align: justify;">
-                    <fieldset id="pelicula vista" style="background-color:rgb(247, 245, 198);">
-                        <legend style="text-align:center;">Selecciona las películas que no hayas visto</legend>
-                        <input type="checkbox" name="pelicula" value="11"> Dune <br>
-                        <img src="img/peli7.jpg" alt="Dune"width="200" height="250"><br>
-                        <input type="checkbox" name="pelicula" value="22"> No mires arriba <br>
-                        <img src="img/peli8.jpg" alt="No mires arriba"width="300" height="200" ><br>
-                        <input type="checkbox" name="pelicula" value="33"> El callejón de las almas perdidas <br>
-                        <img src="img/peli9.jpg" alt="El callejón de las almas perdidas"width="200" height="300" ><br>
-                        <input type="checkbox" name="pelicula" value="44"> West Side Story <br>
-                        <img src="img/peli10.jpg" alt="West Side Story"width="200" height="300" ><br>
-                        <input type="checkbox" name="pelicula" value="55"> Belfast <br>
-                        <img src="img/peli11.jpg" alt="Belfast"width="200" height="300" ><br>
-                        <input type="checkbox" name="pelicula" value="66"> MORBIUS <br>
-                        <img src="img/peli12.jpg" alt="MORBIUS"width="200" height="250"><br>
-            
-                    </fieldset>
-                </div>
-                <fieldset id="grupo_argumento" style="background-color:rgb(133, 106, 106);">
-                    <legend style="text-align:center;">Argumento de la película que más te gusta</legend>
-                    <textarea name="argumento" id="argumento" cols="80" rows="14"></textarea> 
-                </fieldset>
+            <fieldset id="datos_personales" style="background-color:rgb(250, 215, 160);">
 
+                <legend style="text-align:center;">Datos Personales</legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"> <br>
                 <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido"><br>
+                <br>
+                <label for="dni">DNI:</label>
+                <input type="text" name="dni" id="dni" maxlength="9"><br>
+                <br>
+                <label for="edad">Edad:</label>
+                <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
+                <br>
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sexo">
+                    <option selected="selected">Femenino</option>
+                    <option>Masculino</option>
+                </select>
+            </fieldset>
+            <br>
 
-                <input type="reset" value="Borrar Formulario">
-                <input type="submit" value="Enviar">
+                <fieldset id="mejor película" style="background-color:rgb(247, 220, 111);float: left; width: 46%; text-align: justify;">
+                    <legend style="text-align:center;">Mejor Película</legend>
+                    <input type="radio" name="pelicula" value="11"> Spider-Man: Sin camino a casa <br>
+                    <img src="img/peli1.jpg" alt="Spider-Man: Sin camino a casa" width="200" height="300"><br>
+                    <input type="radio" name="pelicula" value="22"> Halloween Kills: La noche aún no termina <br>
+                    <img src="img/peli2.jpg" alt="Halloween Kills" width="200" height="300"><br>
+                    <input type="radio" name="pelicula" value="33"> No respires 2 <br>
+                    <img src="img/peli3.jpg" alt="No respires 2" width="200" height="250"><br>
+                    <input type="radio" name="pelicula" value="44"> Rápidos y Furiosos 9<br>
+                    <img src="img/peli4.jpg" alt="Rápidos y Furiosos 9" width="200" height="250"><br>
+                    <input type="radio" name="pelicula" value="55"> Entre dos mundos<br>
+                    <img src="img/peli5.jpg" alt="Entre dos mundos" width="200" height="250"><br>
+                    <input type="radio" name="pelicula" value="66"> The Adam Project <br>
+                    <img src="img/peli6.jpg" alt="The Adam Project" width="200" height="250"><br>
 
-                
-    
-            </form>
-        </div>
-    </font>
-    
+
+                </fieldset>
+
+                <fieldset id="pelicula vista" style="background-color:rgb(247, 245, 198); float: right; width: 48%; text-align: justify;">
+                    <legend style="text-align:center;">Selecciona las películas que no hayas visto</legend>
+                    <input type="checkbox" name="pelicula" value="11"> Dune <br>
+                    <img src="img/peli7.jpg" alt="Dune" width="200" height="250"> <br>
+                    <input type="checkbox" name="pelicula" value="22"> No mires arriba <br>
+                    <img src="img/peli8.jpg" alt="No mires arriba" width="200" height="280"><br>
+                    <input type="checkbox" name="pelicula" value="33"> El callejón de las almas perdidas <br>
+                    <img src="img/peli9.jpg" alt="El callejón de las almas perdidas" width="200" height="250"><br>
+                    <input type="checkbox" name="pelicula" value="44"> West Side Story <br>
+                    <img src="img/peli10.jpg" alt="West Side Story" width="200" height="300"><br>
+                    <input type="checkbox" name="pelicula" value="55"> Belfast <br>
+                    <img src="img/peli11.jpg" alt="Belfast" width="200" height="250"><br>
+                    <input type="checkbox" name="pelicula" value="66"> MORBIUS <br>
+                    <img src="img/peli12.jpg" alt="MORBIUS" width="200" height="270"><br>
+
+                </fieldset>
+            <br>
+
+            <fieldset id="grupo_argumento" style="background-color:rgb(245, 176, 65);">
+                   
+                <legend style="text-align:center;">Argumento de la película que más te gusta</legend>
+                <textarea name="argumento" id="argumento" cols="60" rows="11"></textarea>
+            </fieldset>
+
+            <br>
+
+            <input type="reset" value="Borrar Formulario" style="background-color:#922B21; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: white;">
+            <input type="submit" value="Enviar" style="background-color: #DC7633; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; float: right;">
+
+
+        </form>
+    </div>
+
 </body>
+
 </html>
