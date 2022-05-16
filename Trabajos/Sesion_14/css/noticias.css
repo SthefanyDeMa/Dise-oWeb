@@ -1,0 +1,68 @@
+#caja1 {
+    background-color: white;
+}
+
+
+#caja2 {
+    background-color: gray;
+
+}
+
+
+#caja3 {
+    width: 500px;
+    height: 200px;
+    float: right;
+    margin-left: 10px;
+}
+
+#caja4 {
+    background-color: white;
+    margin-bottom: 0px;
+    float: left;
+    text-align: justify;
+
+
+}
+
+#caja5 {
+    background-color: yellow;
+    width: 200px;
+    float: right;
+    margin: 0px;
+
+}
+
+#caja6 {
+    background-color: red;
+    text-align: center;
+    padding: 10px 200px 10px 0px;
+    color: white;
+    font-size: 22px;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 3%;
+}
+
+h3 {
+    color: red;
+}
+
+#caja7{
+    width: 40px;
+    height: 35px;
+    padding: 0px 200px 0px 0px;
+
+    /*
+    1px arriba    
+    3px derecha  
+    30 px abajo 
+    5px izquierda   
+
+    */
+    
+
+}
