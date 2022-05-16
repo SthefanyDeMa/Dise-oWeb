@@ -36,15 +36,33 @@
 #caja6 {
     background-color: red;
     text-align: center;
-    padding: 10px 5px 10px 6px;
+    padding: 10px 200px 10px 0px;
     color: white;
+    font-size: 22px;
 
 }
 
 a {
     text-decoration: none;
+    padding: 3%;
 }
 
 h3 {
     color: red;
+}
+
+#caja7{
+    width: 40px;
+    height: 35px;
+    padding: 0px 200px 0px 0px;
+
+    /*
+    1px arriba    
+    3px derecha  
+    30 px abajo 
+    5px izquierda   
+
+    */
+    
+
 }
