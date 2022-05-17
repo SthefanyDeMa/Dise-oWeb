@@ -1,0 +1,90 @@
+body{
+    background-color: #922B21;
+}
+
+div {
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+    width: 40%;
+    margin: 0 auto;
+    font-family: 'Lucida Sans';
+}
+
+fieldset{
+    margin-bottom: 1px;
+}
+
+legend{
+    background-color: #DC7633;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+h2{
+    color:#7B241C;
+    border:3px solid #000000;
+    text-align:center;
+}
+
+#grupo_argumento{
+    background-color:rgb(245, 176, 65);
+}
+
+#datos_personales{
+    background-color:rgb(250, 215, 160);
+}
+
+#mejor_película{
+    background-color:rgb(247, 220, 111);
+    float: left; 
+    width: 42%; 
+    text-align:center;
+
+}
+
+#pelicula_vista{
+    background-color:rgb(247, 245, 198); 
+    float: right; 
+    width: 42%; 
+    text-align:center;
+
+}
+
+.button_1{
+    background-color:#922B21; 
+    font-family: 'Lucida Sans'; 
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    justify-content: center;
+    height: 30px;
+}
+
+.button_2{
+    background-color: #DC7633; 
+    font-family:'Lucida Sans'; 
+    float: right;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    justify-content: center;
+    height: 30px;
+
+}
+
+#argumento{
+    margin-left: auto;
+    margin-right:auto; 
+    display: flex;
+
+
+}
+
+#caja_1{
+    width: 400px;
+    position:fixed;
+    float: left;
+    
+}

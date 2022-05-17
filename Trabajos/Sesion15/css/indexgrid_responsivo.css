@@ -1,0 +1,185 @@
+
+body{
+    margin: 0px auto;
+
+}
+
+.grid{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 100px 50px;
+    grid-template-areas: "my-header""my-nav" "my-section" " my-aside" "my-footer";
+}
+
+main{
+    color: white;
+    font-family: arial;
+}
+header{
+    background-color: #ffff89;
+    grid-area: my-header;
+}
+nav{
+    background-color: #ffcc50;
+    grid-area: my-nav;
+}
+section{
+    background-color: #853400;
+    grid-area: my-section;
+    padding: 20px 20px 25px 25px;
+}
+aside{
+    background-color: #ff9800;
+    grid-area: my-aside;
+    font-family: verdana;
+
+}
+
+footer{
+    background-color: #c06500;
+    grid-area: my-footer;
+    text-align: center;
+    font-family: verdana;
+    padding: 2px 5px 2px 5px;
+
+}
+
+@media (min-width:600px) and (max-width:1000px){
+
+    .grid{
+        grid-template-columns: 72% 28%;
+        grid-template-rows: 250px 60px 1fr 100px;
+        grid-template-areas: "my-header my-header"
+        "my-nav my-nav""my-section my-aside" "my-footer  my-footer";
+    }
+
+}
+@media(min-width:1001px){
+    .grid{
+        grid-template-columns: 230px 1fr 300px;
+        grid-template-rows: 230px 1fr 100px;  
+        grid-template-areas: "my-header my-header my-header"
+        "my-nav my-section my-aside" "my-footer  my-footer  my-footer";
+    }
+
+}
+.nav > li {
+    float:left;
+    list-style:none;
+
+}
+
+.nav li a {
+    background:#d2691e;
+    font-size: 12px;
+    color:#FFF;
+    display:block;
+    border:1px solid;
+    padding:5px 10px;
+    text-decoration: none;
+    font-family: verdana;
+
+}
+
+.nav li a:hover {
+    background:#9b3c00;
+    
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+    list-style:none;
+
+}
+
+
+.nav li:hover > ul {
+    display:block;
+    font-family:'Times New Roman';
+
+    }
+
+
+
+.nav li .flecha{
+    font-size: 10px;
+    padding-left: 6px;
+    display: none;
+}
+
+.nav li a:not(:last-child) .flecha {
+    display: inline;
+}
+
+#caja1{
+    width: 150px;
+    height: 70px;
+    padding: 10px 45%;
+}
+
+aside div img{
+    width: 40px;
+    padding: 30px 40%;
+    cursor: pointer;
+}
+
+aside div a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana;
+
+}
+aside div {
+    padding: 30px;
+    text-align: justify;
+
+
+}
+
+#caja3, #caja4, #caja5, #caja6{
+    height: 700px;
+
+}
+
+#caja7 a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana;
+}
+
+#caja7 {
+    padding: 2%;
+    float: left;
+}
+
+
+#caja8 a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana;
+}
+#caja8 {
+    padding: 2%;
+    float: right;
+
+}
+
+#caja9{
+    text-align: center;
+}
+
+#caja9 a{
+    padding:5px 5%;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana;
+    background-color: #FFF;
+
+
+}
+header div img{
+    width: 30px;
+}
