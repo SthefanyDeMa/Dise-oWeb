@@ -1,10 +1,30 @@
 function guardarDato() {
-    var nombre=document.getElementById("nombre").value;
-    var movil=document.getElementById("movil").value;
-    localStorage.setItem(nombre, movil);
+    //capturando variables
+    const nombre=document.getElementById("nombre").value;
+    const movil=document.getElementById("movil").value;
+    const email=document.getElementById("email").value;
+    const direccion=document.getElementById("direccion").value;
+
+
+    const datos={
+        'movil': movil,
+        'email': email,
+        'direccion': direccion,
+    }
+
+    //almacenando los datos
+    localStorage.setItem(nombre, JSON.stringify(datos));
+
+    //borrando los datos
     document.getElementById("nombre").value="";
     document.getElementById("movil").value="";
-    actualizarDatos();
+    document.getElementById("email").value="";
+    document.getElementById("direccion").value="";
+
+
+    //actualizando la lista
+    actualizarDatos;
+
 }
 
 function recuperarDato(){
@@ -26,15 +46,20 @@ function eliminarTodo() {
 
 function actualizarDatos() {
     var registro="";
-    if (localStorage.length==0) {
+    if (localStorage.length===0) {
         registro +='<li>Vacío</li>';
         
     } else {
-        for(var i=0;i<=localStorage.length-1;i++){
-            var key=localStorage.key(i);
-            registro+='<li>'+'<span class="nom">'+key+'</span>'
-            + '<span class="nom">' + localStorage.getItem(key) + '</span' + '</li><br>';
+        for(var index=0;index<=localStorage.length-1;index++){
+            var key=localStorage.key(index);
+            var datos=JSON.parse(localStorage.getItem(key));
+            registro+='<div class="conteinerTablaMostrar">'
+            + '<div class="nom">'+ key+'</div>'
+            + '<div class="nom">'+ datos.movil + '</div>'
+            + '<div class="nom">'+ datos.email + '</div>'
+            + '<div class="nom">'+ datos.direccion + '</div>'
+            + '</div><br>';
         }
     }
-    document.getElementById('contactos').innerHTML=registro;
+    document.getElementById('datos').innerHTML=registro;
 }

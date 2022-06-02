@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/agendav2.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/agendav3.css">
+    <title>AgendaV3</title>
 </head>
 <body>
     <div id="contenedor">
@@ -17,11 +17,13 @@
             <span>Nombre:</span>
             <input type="text" placeholder="Nombre" id="nombre"><br><br>
             <span>Num celular: </span>
-            <input type="text" placeholder="movil" id="movil">
+            <input type="text" placeholder="Movil" id="movil"><br><br>
             <span>Email: </span>
-            <input type="email" placeholder="Email" id="email">
+            <input type="email" placeholder="Email" id="email"><br><br>
+            <span>Dirección: </span>
+            <input type="text" placeholder="Dirección" id="dirección">
         </form>
-        <hr />
+        <hr/>
         <div>
             <button type="button" onclick="guardarDato()" >Guardar</button>
             <button type="button" onclick="recuperarDato()">Recuperar</button>
@@ -29,9 +31,9 @@
             <button type="button" onclick="eliminarTodo()">Eliminar todos</button>
         </div>
         <hr>
-        <span class="titu">Nombre</span> <span class="titu">Celular</span> <span class="titu">Email</span><br>
+        <span class="titu">Nombre</span> <span class="titu">Celular</span> <span class="titu">Email</span> <span class="titu">Dirección</span><br>
         <ul id="contactos"></ul>
     </div>
-    <script type="text/javascript" src="js/agendav2.js"></script>
+    <script type="text/javascript" src="js/agendav3.js"></script>
 </body>
 </html>
