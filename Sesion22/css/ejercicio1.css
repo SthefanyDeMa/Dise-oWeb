@@ -18,3 +18,18 @@ p::first-letter{
     content: 'Perú';
     background-color: red;
 }
+
+/*Pseudoclases*/
+div:hover{
+    background-color: yellow;
+}
+
+/*solo para selectores <a>*/
+
+a:focus{
+    color: green;
+}
+
+a:active{
+    color: hotpink;
+}
