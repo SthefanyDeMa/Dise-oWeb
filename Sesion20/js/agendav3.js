@@ -6,11 +6,11 @@ function guardarDato() {
     const direccion=document.getElementById("direccion").value;
 
 
-    const datos={
+    const datos = {
         'movil': movil,
         'email': email,
-        'direccion': direccion,
-    }
+        'direccion': direccion
+    };
 
     //almacenando los datos
     localStorage.setItem(nombre, JSON.stringify(datos));
@@ -23,14 +23,23 @@ function guardarDato() {
 
 
     //actualizando la lista
-    actualizarDatos;
+    actualizarDatos();
 
 }
 
 function recuperarDato(){
-    var nombre=document.getElementById("nombre").value;
-    localStorage.setItem(nombre);
-    document.getElementById("nombre").value=localStorage.getItem(nombre);
+    
+    var nombre = prompt("Ingresa el nombre para recuperar los datos","");
+    //var nombre=document.getElementById("nombre").value;
+    localStorage.getItem(nombre);
+    //document.getElementById("nombre").value=localStorage.getItem(nombre);
+
+    var datosJson = JSON.parse(localStorage.getItem(nombre));
+    document.getElementById("nombre").value=nombre;
+    document.getElementById("movil").value=datosJson.movil;
+    document.getElementById("email").value=datosJson.email;
+    document.getElementById("direccion").value=datosJson.direccion;
+
 }
 function eliminarDato() {
     var nombre=document.getElementById("nombre").value;
@@ -46,20 +55,20 @@ function eliminarTodo() {
 
 function actualizarDatos() {
     var registro="";
-    if (localStorage.length===0) {
-        registro +='<li>Vacío</li>';
+    if (localStorage.length==0) {
+        registro += '<li>Vacío</li>';
         
     } else {
-        for(var index=0;index<=localStorage.length-1;index++){
-            var key=localStorage.key(index);
-            var datos=JSON.parse(localStorage.getItem(key));
-            registro+='<div class="conteinerTablaMostrar">'
-            + '<div class="nom">'+ key+'</div>'
-            + '<div class="nom">'+ datos.movil + '</div>'
-            + '<div class="nom">'+ datos.email + '</div>'
-            + '<div class="nom">'+ datos.direccion + '</div>'
-            + '</div><br>';
+        for(var i = 0; i<= localStorage.length-1; i++){
+            var key = localStorage.key(i);
+            var datosJson=JSON.parse(localStorage.getItem(key));
+            registro+='<div class="tabla">'+ '<div class="nom">'+ key +'</div>'+
+            '<div class="nom">'+ datosJson.movil + '</div>'+
+            '<div class="nom">'+ datosJson.email + '</div>'+
+            '<div class="nom">'+ datosJson.direccion + '</div>'+
+            '</div><br>';
+            console.log(datosJson.movil);
         }
     }
-    document.getElementById('datos').innerHTML=registro;
+    document.getElementById('contactos').innerHTML=registro;
 }

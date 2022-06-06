@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/agendav3.css">
     <title>AgendaV3</title>
 </head>
+
 <body>
     <div id="contenedor">
         <header>
@@ -21,19 +23,27 @@
             <span>Email: </span>
             <input type="email" placeholder="Email" id="email"><br><br>
             <span>Dirección: </span>
-            <input type="text" placeholder="Dirección" id="dirección">
+            <input type="text" placeholder="Dirección" id="direccion">
+
         </form>
-        <hr/>
-        <div>
-            <button type="button" onclick="guardarDato()" >Guardar</button>
-            <button type="button" onclick="recuperarDato()">Recuperar</button>
-            <button type="button" onclick="eliminarDato()">Eliminar</button>
-            <button type="button" onclick="eliminarTodo()">Eliminar todos</button>
-        </div>
-        <hr>
-        <span class="titu">Nombre</span> <span class="titu">Celular</span> <span class="titu">Email</span> <span class="titu">Dirección</span><br>
-        <ul id="contactos"></ul>
+    <hr />
+    <div>
+        <button type="button" onclick="guardarDato()">Guardar</button>
+        <button type="button" onclick="recuperarDato()">Recuperar</button>
+        <button type="button" onclick="eliminarDato()">Eliminar</button>
+        <button type="button" onclick="eliminarTodo()">Eliminar todos</button>
+    </div>
+    <hr>
+    <div class="titulo">
+        <h2>Nombre</h2>
+        <h2>Celular</h2>
+        <h2>Email</h2>
+        <h2>Direccion</h2>
+
+    </div>
+        <div id="contactos"></div>
     </div>
     <script type="text/javascript" src="js/agendav3.js"></script>
 </body>
+
 </html>

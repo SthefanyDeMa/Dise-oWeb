@@ -14,15 +14,26 @@ span{
 }
 .nom{
     background-color: darkgray;
+    color: black;
 }
-.titu{
+
+.titulo{
     background-color: #0df39b;
+    display: flex;
+    justify-content: space-between;
+
 }
+
+.titulo h2{
+    font-size: 15px;
+}
+
 li{
     list-style: none;
     margin-top: 1px;
 }
-ul{
-    margin: 0px;
-    padding-left: 0px;
+
+.tabla{
+    display: flex;
+    justify-content: space-between;
 }
