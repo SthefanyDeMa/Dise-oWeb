@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/corazon.css">
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
+    <title>Corazon</title>
+</head>
+<style>
+    body {
+        background-image: url(img/fondo.jpg);
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+        margin: 0;
+    }
+    
+</style>
+<body>
+    <h1>Viva el Perú</h1>
+    <div class="imagen box" data-anijs="if: mouseover, do: swing animated">
+        <img src="img/imagen.jpg" alt="imagen" title="Pasar el cursor para la animación" id="imagen">
+    </div>
+    <div class="corazon" title="Pasar el cursor para la animación">
+        <div class="banda" title="Pasar el cursor para la animación"></div>
+    </div>
+    <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+    <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>    
+</body>
+
+</html>
