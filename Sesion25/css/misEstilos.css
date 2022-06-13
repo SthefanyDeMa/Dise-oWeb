@@ -1,0 +1,14 @@
+html, body{
+    height: 100%;
+}
+
+#cover{
+    background: #222 url(../img/fondo.jpg) center no-repeat;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+}
+
+#cover-texto{
+    width: 100%;
+}
