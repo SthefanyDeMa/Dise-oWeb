@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veterinaria</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/misEstilos.css">
 
 </head>
+
 <body>
     <section id="cover" class="d-flex align-items-center">
         <div id="cover-texto">
@@ -26,7 +29,8 @@
                                 <label class="visually-hidden" for="autoSizingInput">Username</label>
                                 <div class="input-group">
                                     <div class="input-group-text">@</div>
-                                    <input type="text" class="form-control" id="autoSizingInput" placeholder="Username">
+                                    <input type="text" class="form-control" id="autoSizingInput"
+                                        placeholder="Nombre de usuario">
                                 </div>
                                 <div>
                                     <button type="submit" class="btn btn-info">Suscribirme</button>
@@ -38,7 +42,56 @@
             </div>
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="">Contactos</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar en este sitio" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="list-group" id="listaDesplegable">
+        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Nuestros servicios</a>
+        <a href="#" class="list-group-item list-group-item-action">Desparacitación</a>
+        <a href="#" class="list-group-item list-group-item-action">Vacunación</a>
+        <a href="#" class="list-group-item list-group-item-action">Baños medicados</a>
+        <a href="#" class="list-group-item list-group-item-action">Hospitalización</a>
+        <a href="#" class="list-group-item list-group-item-action">Laboratorios</a>
+        <a href="#" class="list-group-item list-group-item-action">Emergencia</a>
+        <a href="#" class="list-group-item list-group-item-action">Tele consultas</a>
+        <a href="#" class="list-group-item list-group-item-action">Radiología</a>
+
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
     <!--luego del script colocar los js(opcional)-->
 </body>
+
 </html>
