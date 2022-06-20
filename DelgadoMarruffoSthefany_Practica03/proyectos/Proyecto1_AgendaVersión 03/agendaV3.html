@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agendav3.css">
+    <link rel="icon" href="img/agenda.png">
+    <title>AgendaV3</title>
+</head>
+
+<style>
+    body {
+        background-image: url(img/fondo3.jpg);
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+        margin: 0;
+    }
+    
+</style>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <h1>Mi Agenda de Contactos</h1>
+            <hr>
+        </header>
+        <form>
+            <span>Nombre:</span>
+            <input type="text" placeholder="Nombre" id="nombre"><br><br>
+            <span>N° celular: </span>
+            <input type="text" placeholder="Movil" id="movil"><br><br>
+            <span>Email: </span>
+            <input type="email" placeholder="Email" id="email"><br><br>
+            <span>Dirección: </span>
+            <input type="text" placeholder="Dirección" id="direccion">
+
+        </form>
+        <hr />
+        <div>
+            <button type="button" onclick="guardarDato()">GUARDAR</button>
+            <button type="button" onclick="recuperarDato()">RECUPERAR</button>
+            <button type="button" onclick="eliminarDato()" >ELIMINAR</button>
+            <button type="button" onclick="eliminarTodo()">ELIMINAR TODOS</button>
+        </div>
+        <hr>
+        <div class="titulo">
+            <h2>Nombre</h2>
+            <h2>Celular</h2>
+            <h2>Email</h2>
+            <h2>Dirección</h2>
+
+        </div>
+        <div id="contactos"></div>
+    </div>
+    <script type="text/javascript" src="js/agendav3.js"></script>
+</body>
+
+</html>

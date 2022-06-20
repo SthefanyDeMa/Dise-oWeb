@@ -1,0 +1,146 @@
+html,
+body {
+    height: 100%;
+}
+
+#cover {
+    background: url(../img/fondo.jpg) center no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+#cover-texto {
+    width: 100%;
+}
+
+h1 {
+    color: #5d1372;
+    font-family: Lovely California;
+}
+
+@font-face {
+    font-family: Lovely California;
+    src: url(FuenteLetra/Lovely_California);
+}
+
+
+.list-group-item {
+    font-family: 'Franklin Gothic Medium';
+    background-color: #b695c0;
+
+}
+
+.lead {
+    color: #b695c0;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #7f00b2;
+}
+
+nav .nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.list-group-item {
+    border: none;
+    color: black;
+}
+
+.list-group-item:hover {
+    background-color: #f1d7ff;
+    border: #4b1c71 3px solid;
+    color: #4b1c71;
+}
+
+#NuestrosServicios {
+    background-color: #7f4ca5;
+}
+
+.list-group {
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+section .btn {
+    background-color: #ab3ed8;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.col-auto {
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+#navbarSupportedContent a i {
+    padding-right: 10px;
+}
+
+.container-fluid a i {
+    padding-right: 10px;
+
+}
+
+#carouselExampleIndicators {
+    width: 600px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+
+.d-flex .btn {
+    font-size: 18px;
+}
+
+section .row {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
+footer {
+    background-color: #2b064d;
+}
+
+footer h5,
+p,
+.mt-4 {
+    text-align: center;
+}
+
+section .fa-solid:hover {
+    color: #7f00b2;
+}
+
+footer p i {
+    padding-right: 10px;
+}
+
+
+.btn-facebook:hover {
+    background: #3b5999;
+    color: #fff;
+}
+
+.btn-instagram:hover {
+    background: #ff0080;
+    color: #fff;
+}
+
+.btn-twitter:hover {
+    background: #00acee;
+    color: #fff;
+}
+

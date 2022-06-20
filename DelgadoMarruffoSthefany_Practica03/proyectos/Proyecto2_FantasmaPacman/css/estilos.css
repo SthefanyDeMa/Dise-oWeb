@@ -1,0 +1,225 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+}
+
+body>div {
+    margin: 120px auto;
+    text-align: center;
+}
+
+.tile {
+    width: 53px;
+    height: 52px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wall {
+    background-color: blue;
+    border: 3px solid cornflowerblue;
+}
+
+.coin {
+    background-color: yellow;
+    border-radius: 50%;
+    transform: scale(0.3);
+}
+
+.pacman {
+    background-image: url('../img/mizpacman.png');
+}
+
+.left {
+    background-image: url('../img/mizpacman-left.png');
+}
+
+.up {
+    background-image: url('../img/mizpacman-up.png');
+}
+
+.down {
+    background-image: url('../img/mizpacman-down.png');
+}
+
+/*.pacman{
+    width: 70px;
+    height: 70px;
+}*/
+
+.fantasmas {
+    position: absolute;
+    top: 94%;
+    width: 40%;
+    z-index: 1;
+    animation: fantasmas 10s infinite linear;
+}
+
+.fantasmas_2 {
+    position: absolute;
+    padding: 175px;
+    left: 470px;
+    z-index: 1;
+}
+
+.fantasma{
+    border-radius: 50% 50% 0 0;
+    height: 42px;
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+}
+
+
+.fantasma:before,
+.fantasma:after {
+    content: '';
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 10px solid black;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    animation: patitas .7s infinite linear;
+}
+
+.fantasma:before {
+    left: 5px;
+}
+
+.fantasma:after {
+    right: 5px;
+}
+
+.uno {
+    background: red;
+    left: 150px;
+}
+
+.dos {
+    background: pink;
+    left: 220px;
+}
+
+.tres {
+    background: mediumseagreen;
+    left: 80px;
+}
+
+.cuatro {
+    background:fuchsia;
+    left: 360px;
+}
+
+.cinco {
+    background:lime;
+    left: 430px;
+}
+
+.ojo {
+    background: #fff;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    border: 1px solid #000;
+    display: inline-block;
+    margin: 10px 0 0 0px;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    animation: ojos 8s infinite linear;
+}
+
+.ojo:before {
+    content: '';
+    background: #000;
+    border-radius: 100%;
+    content: "";
+    height: 7px;
+    position: absolute;
+    width: 7px;
+}
+
+/***************keyframes******************/
+
+
+@keyframes fantasmas {
+    0% {
+        left: -10%;
+    }
+
+    50% {
+        left: 70%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes patitas {
+    0% {
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+    }
+
+    25% {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+
+    50% {
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+    }
+
+    75% {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+
+    100% {
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+    }
+}
+
+
+@keyframes ojos {
+    0% {
+        transform: rotate(0deg);
+        margin-left: -5px;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        margin-left: 10px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        margin-left: -5px;
+    }
+}
+
+
+h1{
+    color: yellow;
+    text-align: center;
+    font-family:verdana;
+    font-size: 80px;
+}
+
+
+#imagen{
+    width: 50px;
+}

@@ -1,0 +1,122 @@
+body{
+    padding: 40px;
+}
+
+#contenedor{
+    width: 600px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-family: calibri;
+    border: 3px white solid;
+
+}
+
+input{
+    border: #b2443a solid 2px;
+
+} 
+
+span{
+    width: 150px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+    color: #FFE5B4;
+    font-size: 20px;
+    font-family: Sarkowik;
+}
+
+
+.nom{
+    color: black;
+    font-size: 18px;
+    font-family: cambria;
+
+
+}
+
+.titulo{
+    background-color: #fa8072;
+    display: flex;
+    justify-content:space-around;
+    color: #fff4e1;
+    font-family: verdana;
+    border: #b2443a 3px solid;
+
+
+}
+
+.titulo h2{
+    font-size: 15px;
+}
+
+li{
+    list-style: none;
+    margin-top: 1px;
+    font-size: 18px;
+    color: black;
+    font-family: cambria;
+
+}
+
+.tabla{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-family:Bobolink;
+    color: #fff4e1;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+hr{
+    border: 3px solid white;
+}
+
+@font-face {
+    font-family: Bobolink;
+    src: url(FuenteLetra/Bobolink.ttf);
+}
+
+@font-face {
+    font-family: Sarkowik;
+    src: url(FuenteLetra/Sarkowik.ttf);
+}
+
+button{
+    font-family: verdana;
+    background-color: #f6e9d1;
+    border: #b2443a solid 3px;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 147px;
+    font-weight: bold;
+}
+
+#contactos{
+    background-color: #FFE5B4;
+    border: #b2443a 3px solid;
+    padding-right: 70px ;
+    padding-left: 40px ;
+    text-align: center;
+}
+
+img{
+    width: 20px;
+
+}
+
+form{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
