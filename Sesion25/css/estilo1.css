@@ -1,18 +1,19 @@
-html, body{
+html,
+body {
     height: 100%;
 }
 
-#cover{
+#cover {
     background: url(../img/fondo.jpg) center no-repeat;
     background-size: 100%;
     text-align: center;
 }
 
-#cover-texto{
+#cover-texto {
     width: 100%;
 }
 
-h1{
+h1 {
     color: #5d1372;
     font-family: Lovely California;
 }
@@ -23,48 +24,49 @@ h1{
 }
 
 
-.list-group-item{
+.list-group-item {
     font-family: 'Franklin Gothic Medium';
     background-color: #b695c0;
 
 }
 
-.lead{
-    color: #b695c0 ;
+.lead {
+    color: #b695c0;
     font-weight: bold;
 }
 
-nav{
+nav {
     background-color: #7f00b2;
 }
 
-nav .nav-link{
+nav .nav-link {
     color: white;
     font-size: 20px;
 }
 
-.list-group-item{
+.list-group-item {
     border: none;
     color: black;
 }
 
-.list-group-item:hover{
+.list-group-item:hover {
     background-color: #f1d7ff;
     border: #4b1c71 3px solid;
     color: #4b1c71;
 }
 
-#NuestrosServicios{
+#NuestrosServicios {
     background-color: #7f4ca5;
 }
 
-.list-group{
+.list-group {
     padding-top: 30px;
     padding-left: 20px;
     border-radius: 20px;
+    padding-bottom: 30px;
 }
 
-section .btn{
+section .btn {
     background-color: #ab3ed8;
     color: white;
     margin-top: 30px;
@@ -72,18 +74,18 @@ section .btn{
     border: none;
 }
 
-.col-auto{
+.col-auto {
     padding-bottom: 30px;
     padding-left: 150px;
     padding-right: 150px;
 
 }
 
-#navbarSupportedContent a i{
+#navbarSupportedContent a i {
     padding-right: 10px;
 }
 
-.container-fluid a i{
+.container-fluid a i {
     padding-right: 10px;
 
 }
@@ -95,13 +97,49 @@ section .btn{
 }
 
 
-.d-flex .btn{
+.d-flex .btn {
     font-size: 18px;
 }
-section .row{
+
+section .row {
     padding-top: 30px;
     padding-bottom: 40px;
     padding-left: 50px;
     padding-right: 50px;
 
+}
+
+
+footer {
+    background-color: #2b064d;
+}
+
+footer h5,
+p,
+.mt-4 {
+    text-align: center;
+}
+
+.fa-solid:hover {
+    color: #7f00b2;
+}
+
+footer p i {
+    padding-right: 10px;
+}
+
+
+.btn-facebook:hover {
+    background: #3b5999;
+    color: #fff;
+}
+
+.btn-instagram:hover {
+    background: #ff0080;
+    color: #fff;
+}
+
+.btn-twitter:hover {
+    background: #00acee;
+    color: #fff;
 }

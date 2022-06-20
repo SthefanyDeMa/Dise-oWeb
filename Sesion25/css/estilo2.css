@@ -1,18 +1,19 @@
-html, body{
+html,
+body {
     height: 100%;
 }
 
-#cover{
+#cover {
     background: url(../img/fondo.jpg) center no-repeat;
     background-size: 100%;
     text-align: center;
 }
 
-#cover-texto{
+#cover-texto {
     width: 100%;
 }
 
-h1{
+h1 {
     color: #5d1372;
     font-family: Lovely California;
 }
@@ -23,25 +24,25 @@ h1{
 }
 
 
-.lead{
-    color: #b695c0 ;
+.lead {
+    color: #b695c0;
     font-weight: bold;
 }
 
-nav{
+nav {
     background-color: #7f00b2;
 }
 
-nav .nav-link{
+nav .nav-link {
     color: white;
     font-size: 20px;
 }
 
-.list-group-item:hover{
+.list-group-item:hover {
     background-color: #b8f0ed;
 }
 
-section .btn{
+section .btn {
     background-color: #ab3ed8;
     color: white;
     margin-top: 30px;
@@ -49,14 +50,14 @@ section .btn{
     border: none;
 }
 
-.col-auto{
+.col-auto {
     padding-bottom: 30px;
     padding-left: 150px;
     padding-right: 150px;
 
 }
 
-section .row{
+section .row {
     padding-top: 30px;
     padding-bottom: 40px;
     padding-left: 50px;
@@ -64,41 +65,41 @@ section .row{
 
 }
 
-#navbarSupportedContent a i{
+#navbarSupportedContent a i {
     padding-right: 10px;
 }
 
-.card-body i{
+.card-body i {
     font-size: 30px;
 
 }
 
-.container-fluid a i{
+.container-fluid a i {
     padding-right: 10px;
 
 }
 
-aside{
+aside {
     background-color: #d86aff;
     text-align: center;
     padding-top: 20px;
 }
 
-aside .row{
+aside .row {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 40px;
 }
 
-.card-text{
+.card-text {
     font-size: 15px;
     color: #177e83;
     font-weight: bold;
 
 }
 
-.card-title{
+.card-title {
     color: #102e36;
     font-size: 18px;
     font-weight: bold;
@@ -108,24 +109,54 @@ aside .row{
 
 section .col {
     padding: 15px;
-    border-radius: 20px ;
+    border-radius: 20px;
     border: #102e36 2px solid;
     box-shadow: 5px 5px 8px 10px #ab3ed8;
 }
 
 
-section .col .card{
+section .col .card {
     border: none;
 }
 
-aside .btn{
+aside .btn {
     background-color: #d86aff;
     border: none;
 }
 
-.fa-solid:hover{
+.fa-solid:hover {
     color: #7f00b2;
-
 }
 
 
+footer {
+    background-color: #2b064d;
+}
+
+footer h5,
+p,
+.mt-4 {
+    text-align: center;
+}
+
+
+
+footer p i {
+    padding-right: 10px;
+}
+
+
+.btn-facebook:hover {
+    background: #3b5999;
+    color: #fff;
+}
+
+.btn-instagram:hover {
+    background: #ff0080;
+    color: #fff;
+}
+
+.btn-twitter:hover {
+    background: #00acee;
+    color: #fff;
+}
