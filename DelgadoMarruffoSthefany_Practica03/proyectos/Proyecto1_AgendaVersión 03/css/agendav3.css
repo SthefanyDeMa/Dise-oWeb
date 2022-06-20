@@ -1,5 +1,6 @@
 body{
     padding: 40px;
+    background-color: #eb4040;
 }
 
 #contenedor{
@@ -25,7 +26,7 @@ span{
     padding-left: 4px;
     color: #FFE5B4;
     font-size: 20px;
-    font-family: Sarkowik;
+    font-family: cambria;
 }
 
 
@@ -83,10 +84,6 @@ hr{
     src: url(FuenteLetra/Bobolink.ttf);
 }
 
-@font-face {
-    font-family: Sarkowik;
-    src: url(FuenteLetra/Sarkowik.ttf);
-}
 
 button{
     font-family: verdana;
