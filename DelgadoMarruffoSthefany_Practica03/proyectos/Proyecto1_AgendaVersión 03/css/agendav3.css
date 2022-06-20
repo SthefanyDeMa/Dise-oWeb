@@ -18,7 +18,9 @@ input{
     border: #b2443a solid 2px;
 
 } 
-
+span i{
+    padding-right: 20px;
+}
 span{
     width: 150px;
     display: block;
