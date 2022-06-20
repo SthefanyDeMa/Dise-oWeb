@@ -1,0 +1,149 @@
+.header-blue .navbar {
+    background: transparent;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+  }
+  
+  @media (min-width:768px) {
+    .header-blue .navbar {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+  
+  .header-blue .navbar .navbar-brand {
+    font-weight: bold;
+    color: inherit;
+  }
+  
+  .header-blue .navbar .navbar-brand:hover {
+    color: #f0f0f0;
+  }
+  
+  .header-blue .navbar .navbar-collapse {
+    border-top: 1px solid rgba(255,255,255,0.3);
+    margin-top: .5rem;
+  }
+  
+  @media (min-width:768px) {
+    .header-blue .navbar .navbar-collapse {
+      border-color: transparent;
+      margin: 0;
+    }
+  }
+  
+  .header-blue .navbar .navbar-toggler {
+    border-color: rgba(255,255,255,0.3);
+  }
+  
+  .header-blue .navbar .navbar-toggler:hover, .header-blue .navbar-toggler:focus {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .header-blue .navbar-nav .nav-link {
+      padding-left: .7rem;
+      padding-right: .7rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .header-blue .navbar-nav .nav-link {
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+    }
+  }
+  
+  .header-blue .action-button, .header-blue .action-button:not(.disabled):active {
+    border: 1px solid rgba(255,255,255,0.7);
+    border-radius: 4px;
+    color: #eef4f7;
+    background: white;
+    box-shadow: none;
+    text-shadow: none;
+    padding: .4rem .9rem;
+    background: transparent;
+    transition: background-color 0.25s;
+    outline: none;
+    font-weight: 400;
+  }
+  
+  .header-blue .action-button:hover {
+    color: #fff;
+  }
+  
+  
+  div.jumbotron.carousel-hero {
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+  }
+  
+  div.jumbotron.hero-nature {
+    background-image: url('../../assets/img/electronica1.jpg');
+  }
+  
+  div.jumbotron.hero-photography {
+    background-image: url('../../assets/img/electronica2.jpg');
+  }
+  
+  div.jumbotron.hero-technology {
+    background-image: url('../../assets/img/electronica3.jpg');
+  }
+  
+  h1.hero-title, h2.hero-title, h3.hero-title {
+    text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+    color: #fff;
+  }
+  
+  p.hero-subtitle {
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 10px 15px;
+    color: #fff;
+  }
+  
+  .plat {
+    border-radius: 0px;
+  }
+  
+  .btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0 #048f83!important;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #016090;
+    border-color: #016090;
+  }
+  
+  .btn.btn-primary {
+    background-color: #048f83!important;
+    border-color: #048f83!important;
+  }
+  
+  .btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
+  }
+  
+  * {
+    /*box-sizing: inherit;*/
+  }
+  
+  *:before, *:after {
+    /*box-sizing: inherit;*/
+  }
+  
+  span {
+    font-style: inherit;
+    font-weight: inherit;
+  }
+  

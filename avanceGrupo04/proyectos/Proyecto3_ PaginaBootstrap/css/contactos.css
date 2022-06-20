@@ -1,0 +1,162 @@
+html,
+body {
+    height: 100%;
+}
+
+#cover {
+    background: url(../img/fondo.jpg) center no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+#cover-texto {
+    width: 100%;
+}
+
+h1 {
+    color: #5d1372;
+    font-family: Lovely California;
+}
+
+@font-face {
+    font-family: Lovely California;
+    src: url(FuenteLetra/Lovely_California);
+}
+
+
+.lead {
+    color: #b695c0;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #7f00b2;
+}
+
+nav .nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.list-group-item:hover {
+    background-color: #b8f0ed;
+}
+
+section .btn {
+    background-color: #ab3ed8;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.col-auto {
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+section .row {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+#navbarSupportedContent a i {
+    padding-right: 10px;
+}
+
+.card-body i {
+    font-size: 30px;
+
+}
+
+.container-fluid a i {
+    padding-right: 10px;
+
+}
+
+
+.card-body i:hover {
+    color: #7f00b2;
+}
+
+
+footer {
+    background-color: #2b064d;
+}
+
+footer h5,
+p,
+.mt-4 {
+    text-align: center;
+}
+
+
+
+footer p i {
+    padding-right: 10px;
+}
+
+
+.btn-facebook:hover {
+    background: #3b5999;
+    color: #fff;
+}
+
+.btn-instagram:hover {
+    background: #ff0080;
+    color: #fff;
+}
+
+.btn-twitter:hover {
+    background: #00acee;
+    color: #fff;
+}
+
+section .row{
+    padding-left: 150px;
+}
+
+
+.datos{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+hr{
+    border: 3px solid #7f00b2;
+}
+
+.title{
+    font-family: Sarkowik;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+span{
+    width: 150px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+    color: #5a283d;
+    font-size: 20px;
+}
+
+span i{
+    padding-right: 20px;
+}
+
+@font-face {
+    font-family: Sarkowik;
+    src: url(FuenteLetra/Sarkowik.ttf);
+}
+
+
+.btn-primary{
+    margin-bottom: 50px;
+}

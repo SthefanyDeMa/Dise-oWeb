@@ -1,0 +1,82 @@
+.col-xxl-3 .card{
+    border-radius: 20px;
+    border:  3px solid;
+    box-shadow: 20px 5px 10px 10px #828282;
+}
+
+section .col .card {
+    border: none;
+}
+
+.card-title {
+    color: #fdfc8b;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.card-text {
+    font-size: 15px;
+    color: #350a06;  
+    font-weight: bold;
+
+}
+
+.card .card-header{
+    background-color: #be1704;
+    color: white;
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+
+.card-body i {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.fa-solid:hover {
+    color: #8e001d;
+}
+
+h4{
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+section .row {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+
+}
+
+img{
+    width: 280px;
+}
+
+.container .row{
+    padding-left: 50px;
+}
+
+.row .col-xxl-2{
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.row .col-xxl-3{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.col-xxl-3 .card{
+    background-color: #ff6c3e;
+}
+

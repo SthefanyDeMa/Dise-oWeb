@@ -1,0 +1,32 @@
+section .col {
+    padding: 15px;
+    border-radius: 20px;
+    border:  2px solid;
+    box-shadow: 5px 5px 5px 5px #102e36;
+}
+
+section .col .card {
+    border: none;
+}
+
+.card-title {
+    color: #8e001d;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.card-text {
+    font-size: 15px;
+    color: #009975;  
+    font-weight: bold;
+
+}
+
+.card-body i {
+    font-size: 30px;
+}
+
+.fa-solid:hover {
+    color: #8e001d;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="icon" href="img/icono.png">
+
+</head>
+
+<body>
+    <section id="cover" class="d-flex align-items-center">
+        <div id="cover-texto">
+            <div class="d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="display-1">Veteriana Mis 4Patas</h1>
+                        <p class="lead">Siempre a su servicio, a cualquier hora del día</p>
+                        <form action="row gy-2 gx-3 align-tems-center">
+                            <div class="col-auto">
+                                <label class="visually-hidden" for="autoSizingInput">Name</label>
+                                <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+                            </div>
+                            <div class="col-auto">
+                                <label class="visually-hidden" for="autoSizingInput">Username</label>
+                                <div class="input-group">
+                                    <div class="input-group-text">@</div>
+                                    <input type="text" class="form-control" id="autoSizingInput"
+                                        placeholder="Nombre de usuario">
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn btn-info">Suscribirme</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav class="navbar navbar-expand-lg navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <i class="fa-solid fa-caret-down"></i>Menú</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse card-header" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav nav-pills card-header-pills">
+                    <li class="nav-item active">
+                        <a class="nav-link active" aria-current="page" href="inicio.html"><i
+                                class="fa-solid fa-house"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html"><i class="fa-solid fa-users"></i>Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html"><i class="fa-solid fa-list-check"></i>Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactos.html"><i class="fa-solid fa-address-book"></i>Contactos</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar en este sitio"
+                        aria-label="Search">
+                    <button class="btn btn-success" type="submit">Buscar</button>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+    <div class="row">
+        <section class="col col-lg-3">
+            <div class="list-group" id="listaDesplegable">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true"
+                    id="NuestrosServicios">Nuestros
+                    servicios</a>
+                <a href="#" class="list-group-item list-group-item-action">Desparacitación</a>
+                <a href="#" class="list-group-item list-group-item-action">Vacunación</a>
+                <a href="#" class="list-group-item list-group-item-action">Baños medicados</a>
+                <a href="#" class="list-group-item list-group-item-action">Hospitalización</a>
+                <a href="#" class="list-group-item list-group-item-action">Laboratorios</a>
+                <a href="#" class="list-group-item list-group-item-action">Emergencia</a>
+                <a href="#" class="list-group-item list-group-item-action">Tele consultas</a>
+                <a href="#" class="list-group-item list-group-item-action">Radiología</a>
+            </div>
+        </section>
+
+        <aside class="col col-lg-8">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/img1.jpg" class="d-block w-100" alt="perros">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/img2.jpg" class="d-block w-100" alt="gatos">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/img3.jpg" class="d-block w-100" alt="conejos">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="text-white text-center text-lg-start ">
+        <div class="container p-4">
+            <div class="row mt-4">
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">ACERCA DE LA VETERINARIA</h5>
+                    <p>
+                        El centro tiene las puertas abiertas al público recibiendo casos complejos derivados por la
+                        comunidad de médicos veterinarios para su revisión, tratamiento y discusión.
+                    </p>
+                    <div class="mt-4">
+                        <a type="button" class="btn btn-facebook btn-light btn-lg"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a type="button" class="btn btn-instagram btn-light btn-lg"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a type="button" class="btn btn-twitter btn-light btn-lg"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4 pb-1">UBÍCANOS EN </h5>
+                    <div class="mt-3">
+                        <p><i class="fa-solid fa-house"></i>Carretera a Pimenterl km 40, Chiclayo</p>
+                        <p><i class="fa-solid fa-envelope"></i>mis4patas@cuatropatas.com</p>
+                        <p><i class="fa-solid fa-phone"></i>973 857 415</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">HORARIO DE ATENCIÓN</h5>
+                    <table class="table text-center text-white">
+                        <tbody class="fw-normal">
+                          <tr>
+                            <td>Lun-Vie:</td>
+                            <td>8am-9pm</td>
+                          </tr>
+                          <tr>
+                            <td>Sáb-Dom:</td>
+                            <td>8am-6pm</td>
+                          </tr>
+                          <tr>
+                            <td>Feriados:</td>
+                            <td>9am-1pm</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color:#1b003a">
+            © 2022 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/"> Sthefany Delgado Marruffo</a>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/a7317c152c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!--luego del script colocar los js(opcional)-->
+</body>
+
+</html>
