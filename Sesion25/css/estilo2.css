@@ -1,0 +1,131 @@
+html, body{
+    height: 100%;
+}
+
+#cover{
+    background: url(../img/fondo.jpg) center no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+#cover-texto{
+    width: 100%;
+}
+
+h1{
+    color: #5d1372;
+    font-family: Lovely California;
+}
+
+@font-face {
+    font-family: Lovely California;
+    src: url(FuenteLetra/Lovely_California);
+}
+
+
+.lead{
+    color: #b695c0 ;
+    font-weight: bold;
+}
+
+nav{
+    background-color: #7f00b2;
+}
+
+nav .nav-link{
+    color: white;
+    font-size: 20px;
+}
+
+.list-group-item:hover{
+    background-color: #b8f0ed;
+}
+
+section .btn{
+    background-color: #ab3ed8;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.col-auto{
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+section .row{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+#navbarSupportedContent a i{
+    padding-right: 10px;
+}
+
+.card-body i{
+    font-size: 30px;
+
+}
+
+.container-fluid a i{
+    padding-right: 10px;
+
+}
+
+aside{
+    background-color: #d86aff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+aside .row{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+
+.card-text{
+    font-size: 15px;
+    color: #177e83;
+    font-weight: bold;
+
+}
+
+.card-title{
+    color: #102e36;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+section .col {
+    padding: 15px;
+    border-radius: 20px ;
+    border: #102e36 2px solid;
+    box-shadow: 5px 5px 8px 10px #ab3ed8;
+}
+
+
+section .col .card{
+    border: none;
+}
+
+aside .btn{
+    background-color: #d86aff;
+    border: none;
+}
+
+.fa-solid:hover{
+    color: #7f00b2;
+
+}
+
+
