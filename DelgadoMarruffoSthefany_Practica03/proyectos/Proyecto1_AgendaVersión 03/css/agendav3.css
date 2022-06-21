@@ -28,7 +28,7 @@ span{
     padding-left: 4px;
     color: #FFE5B4;
     font-size: 20px;
-    font-family: cambria;
+    font-family: Sarkowik;
 }
 
 
@@ -84,6 +84,11 @@ hr{
 @font-face {
     font-family: Bobolink;
     src: url(FuenteLetra/Bobolink.ttf);
+}
+
+@font-face {
+    font-family: Sarkowik;
+    src: url(FuenteLetra/Sarkowik.ttf);
 }
 
 

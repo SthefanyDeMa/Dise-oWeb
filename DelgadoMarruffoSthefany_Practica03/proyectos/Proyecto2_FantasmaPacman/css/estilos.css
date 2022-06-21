@@ -215,10 +215,14 @@ body>div {
 h1{
     color: yellow;
     text-align: center;
-    font-family:verdana;
+    font-family:Bufelos;
     font-size: 80px;
 }
 
+@font-face {
+    font-family: Bufelos;
+    src: url(FuenteLetra/Bufelos.ttf);
+}
 
 #imagen{
     width: 50px;
