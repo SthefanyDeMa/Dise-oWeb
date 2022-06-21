@@ -18,3 +18,8 @@ footer section{
     float: left;
     padding-right: 10px;
 }
+
+footer div img{
+    margin-bottom: 70px;
+}
+
