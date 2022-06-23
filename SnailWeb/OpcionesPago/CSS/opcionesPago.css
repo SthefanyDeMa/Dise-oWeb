@@ -355,3 +355,24 @@ color: #fff;
    
 }
 
+fieldset img{
+  height: 100px;
+}
+
+legend{
+  background-color: #DC7633;
+  padding: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+fieldset{
+  margin-bottom: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+#medioPago{
+  background-color:rgb(250, 215, 160);
+}  
