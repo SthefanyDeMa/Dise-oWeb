@@ -398,21 +398,24 @@ fieldset div{
 }
 
 section fieldset input{
-  padding-right: 20%;
+  padding-right: 10px;
   margin-bottom: 15px;
-  margin-right: 10px;
   margin-left: 10px;
+  margin-right: 20px;
 }
 
+
+
+
 section fieldset label{
-  padding-right: 20px;
-  padding-left: 10px;
+  padding-right: 5px;
 }
 
 section fieldset select{
   padding-top: 4px;
   background-color: #c8c8c8;
-  margin-right: 7px;
+  margin-right: 10px;
+  margin-left: 10px;
   border-radius: 5px;
 }
 
@@ -428,6 +431,8 @@ section fieldset i{
   padding-left: 15px;
   padding-right: 15px;
 }
+
+
 
 #div legend{
   text-align: center;
